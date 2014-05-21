@@ -1,0 +1,3 @@
+rm -r receiver/*
+make
+cp vs_recv receiver/

@@ -1,0 +1,10 @@
+Implementation of RUDP [Taken from Wikipedia]:
+----------------------------------------------
+In order to ensure quality, it extends UDP by means of adding the following features:
+
+1. Acknowledgment of received packets
+2. Windowing and flow control
+3. Retransmission of lost packets
+4. Overbuffering (Faster than real-time streaming)
+
+RUDP is not currently a formal standard, however it was described in an IETF internet-draft in 1999. It has not been proposed for standardization.
